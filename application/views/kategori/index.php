@@ -55,7 +55,15 @@
                                     <td><?= $no ?></td>
                                     <td><?= $kategori['nama'] ?></td>
                                     <td><?= $kategori['deskripsi'] ?></td>
-                                    <td>edit hapus</td>
+                                    <td>
+                                        <a href="<?= base_url('admin/kategori/ubah/') . $kategori['id_kategori'] ?>">
+                                            <span class="badge bg-success">Ubah</span>
+                                        </a>
+
+                                        <a href="<?= base_url('admin/kategori/hapus/') . $kategori['id_kategori'] ?>">
+                                            <span class="badge bg-danger">Hapus</span>
+                                        </a>
+                                    </td>
                                 </tr>
                             <?php $no++; endforeach ?>
                         </tbody>

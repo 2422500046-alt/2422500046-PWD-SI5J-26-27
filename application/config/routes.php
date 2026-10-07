@@ -57,5 +57,10 @@ $route['admin'] = 'administrator/Admin_dashboard_controller/index';
 $route['login'] = 'administrator/Admin_auth_controller/index';
 $route['admin/login'] = 'administrator/Admin_auth_controller/index';
 $route['admin/logout'] = 'administrator/Admin_auth_controller/logout';
+
+# admin kategori
+# admin kategori
 $route['administrator/kategori'] = 'administrator/kategori_controller/index';
-$route['administrator/kategori/tambah'] = 'administrator/kategori_controller/tambah_kategori';
+$route['admin/kategori/tambah'] = 'administrator/kategori_controller/tambah_kategori';
+$route['admin/kategori/hapus/(:num)'] = 'administrator/kategori_controller/hapus_kategori/$1';
+$route['admin/kategori/ubah/(:num)'] = 'administrator/kategori_controller/ubah_kategori/$1';
