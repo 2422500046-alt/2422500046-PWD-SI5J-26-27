@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Starter Page</h1>
+                    <h1 class="m-0">Kategori</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -25,10 +25,9 @@
                 <div class="col-lg-12">
                     <div class="card">
             <div class="card-body">
-            <h5 class="card-title">Kategori</h5>
             <p class="card-text">
                 <a href="<?= base_url('admin/kategori/tambah') ?>" class="btn
-                btn-labeled btn-primary">
+                btn-labeled btn-danger">
                 <span class="btn-label">
                     <i class="fa fa-plus"></i>
                 </span>
